@@ -1,6 +1,11 @@
 import 'uno.css';
 import { render } from 'solid-js/web';
+import { Router } from 'solid-app-router';
 
 import App from './App';
 
-render(() => <App />, document.getElementById('root') as HTMLElement);
+render(() => (
+	<Router>
+		<App />
+	</Router>
+), document.getElementById('root') as HTMLElement);
