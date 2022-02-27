@@ -15,7 +15,7 @@ const App: Component = () => {
 					target="atomic-css"
 				>Atomic CSS</a>!
 			</p>
-			<main>
+			<main class="ma4">
 				<Route />
 			</main>
 		</>
